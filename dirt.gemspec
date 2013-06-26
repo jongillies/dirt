@@ -6,11 +6,11 @@ require 'dirt/version'
 Gem::Specification.new do |gem|
   gem.name          = "dirt"
   gem.version       = Dirt::VERSION
-  gem.authors       = ["YOUR NAME HERE"]
-  gem.email         = ["YOUR EMAIL ADDRESS HERE"]
-  gem.description   = %q{This is a demonstration gem to show how to build and test gems}
-  gem.summary       = %q{gem builder example}
-  gem.homepage      = "CODE REPOSITORY URL OR HOME PAGE URL"
+  gem.authors       = ["Jon Gillies"]
+  gem.email         = ["jon@gillies.us"]
+  gem.description   = %q{DIRT}
+  gem.summary       = %q{DIRT}
+  gem.homepage      = "https://github.com/jongillies/dirt.git"
  
   gem.files = Dir['Rakefile', 'Gemfile', '{bin,lib,man,test,spec}/**/*', 'README*', 'LICENSE*']
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }

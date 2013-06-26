@@ -1,6 +1,6 @@
 # Dirt
 
-TODO: Write a gem description
+Data Inacuraccy Reduction Toolkit
 
 ## Installation
 
